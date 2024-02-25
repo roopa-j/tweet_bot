@@ -1,0 +1,5 @@
+google-generativeai
+streamlit
+openai
+supabase
+langchain-openai
