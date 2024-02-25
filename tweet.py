@@ -5,7 +5,7 @@ from langchain_openai import OpenAI, ChatOpenAI
 from langchain import LLMChain
 from getpass import getpass
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 tweet_template = """
 Give me {number} tweets on {topic}.
